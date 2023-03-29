@@ -1,0 +1,32 @@
+
+body {
+    font-family: 'Marcellus SC', serif;
+    overflow-x : hidden;
+}
+#menu li > a {
+    font-size: 18px;
+    font-weight:lighter;
+    color: #3f3f3f;
+}
+#menu form > button {
+    font-size: 18px;
+    font-weight: bold;
+}
+.carousel-inner {
+    max-height: 19rem;
+}
+@media (max-width: 768px) {
+    #intro #nosotros {
+        width: 90% !important;
+    }
+}
+.servicio-fila {
+    width: 100% !important;
+    text-align:center;
+}
+@media (max-width: 576px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center  !important;
+    }
+}
